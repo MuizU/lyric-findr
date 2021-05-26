@@ -21,6 +21,7 @@ export class Provider extends Component {
   };
   const res = await axios.request(options)
   this.setState({track_list: res.data.tracks})
+  console.log("RES: ",this.state.track_list)
     
   }
   render() {

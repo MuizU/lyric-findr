@@ -10,7 +10,7 @@ function App() {
   return (
     <Provider>
       <Router>
-        <React.Fragment className="App">
+        <React.Fragment >
         <Navbar/>
           <div className="container">
             <Switch>
