@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/layout/Navbar'
 import Index from './components/layout/Index'
 import Lyrics from './components/tracks/Lyrics'
+import Footer from './components/layout/Footer'
 import { Provider } from './context'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             </Switch>
           </div>
         </React.Fragment>
+      <Footer/>
     </Router>
     </Provider>
   );
