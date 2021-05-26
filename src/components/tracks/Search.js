@@ -30,7 +30,6 @@ class Search extends Component {
 
     this.setState({trackTitle:''})
 
-  console.log("REQUEST DATA: ",req)
   }
   render() {
     return (
@@ -48,11 +47,12 @@ class Search extends Component {
                   <input
                     type="text" placeholder="Enter the song title"
                     name="trackTitle" value={this.state.trackTitle} 
-                    onChange={this.onChange.bind(this)} className="form-control form-control-lg"
+                    onChange={this.onChange.bind(this)} 
+                    className="form-control form-control-lg"
                   />
                 </div>
-                  <button className="btn btn-primary btn-lg btn-block mb-5" type="submit">
-                  Find Lyrics</button>
+                  <button className="col-12 btn btn-primary btn-lg input-block-level mb-5" type="submit">
+                  Search Lyrics</button>
               </form>
             </div>
           )
